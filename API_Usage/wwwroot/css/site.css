@@ -1,0 +1,26 @@
+﻿body {
+    background-color: #90b29c;
+    font-family: 'Courier New', 'Arial Narrow', Arial, sans-serif;
+    color: #3a281f;
+}
+
+.nav-bar {
+    background-color: #842626;
+    color: #f1a291;
+    font-size: x-large;
+}
+
+  .nav-bar > a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+td {
+  padding: 10px;
+}
+
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    border: 5px solid black;
+}

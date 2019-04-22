@@ -1,0 +1,35 @@
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.csprojAssemblyReference.cache
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.csproj.CoreCompileInputs.cache
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.AssemblyInfoInputs.cache
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.AssemblyInfo.cs
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.deps.json
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.runtimeconfig.json
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.runtimeconfig.dev.json
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.dll
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.pdb
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.dll
+C:\Users\Saniya Islam\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.pdb
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.deps.json
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.runtimeconfig.json
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.runtimeconfig.dev.json
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.dll
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.pdb
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.csproj.CoreCompileInputs.cache
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.AssemblyInfoInputs.cache
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.AssemblyInfo.cs
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.dll
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.pdb
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.csprojAssemblyReference.cache
+C:\Users\shahm\source\repos\API_Usage2\API_Usage\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.deps.json
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.runtimeconfig.json
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.runtimeconfig.dev.json
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.dll
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\bin\Debug\netcoreapp2.0\API_Usage.pdb
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.csprojAssemblyReference.cache
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.csproj.CoreCompileInputs.cache
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.AssemblyInfoInputs.cache
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.AssemblyInfo.cs
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.dll
+C:\Users\Dips\Source\Repos\API_Usage_Assign\API_Usage\obj\Debug\netcoreapp2.0\API_Usage.pdb

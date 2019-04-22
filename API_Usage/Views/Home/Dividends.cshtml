@@ -1,0 +1,88 @@
+﻿@model IEnumerable<API_Usage.Models.dividends>
+
+<h2>Dividends</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                exDate
+            </th>
+            <th>
+                paymentDate
+            </th>
+            <th>
+                recordDate
+            </th>
+            <th>
+                declaredDate
+            </th>
+            <th>
+                amount
+            </th>
+            <th>
+                flag
+            </th>
+            <th>
+                type
+            </th>
+            <th>
+                qualified
+            </th>
+            <th>
+                indicated
+            </th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                @Html.DisplayFor(modelItem => item.exDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.paymentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.recordDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.declaredDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.flag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.qualified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.indicated)
+            </td>
+
+            </tr>
+        }
+
+        @{
+            Model.Count();
+        }
+        <tr>
+            <td>
+                <a id="dbopt" asp-controller="Home" asp-action="PopulateDividend"><img src="~/img/button_save-data.png" /></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    alertDbSave(@ViewBag.dbSuccessComp);
+</script>

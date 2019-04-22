@@ -1,0 +1,58 @@
+﻿@model IEnumerable<API_Usage.Models.mktperformance>
+
+<h2>MktPerformance</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                type
+            </th>
+            <th>
+                name
+            </th>
+            <th>
+                performance
+            </th>
+            <th>
+                lastUpdated
+            </th>
+           
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.performance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastUpdated)
+            </td>
+            
+        </tr>
+        }
+
+        @{
+            Model.Count();
+        }
+        <tr>
+            <td>
+                <a asp-controller="Home" asp-action="PopulatePerformance"><img src="~/img/button_save-data.png" /></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    alertDbSave(@ViewBag.dbSuccessComp);
+</script>

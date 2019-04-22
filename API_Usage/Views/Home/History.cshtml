@@ -1,0 +1,68 @@
+﻿@model IEnumerable<API_Usage.Models.history>
+
+<h2>Dividends</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                date
+            </th>
+            <th>
+                volume
+            </th>
+            <th>
+                routedVolume
+            </th>
+            <th>
+                marketShare
+            </th>
+            <th>
+                isHalfday
+            </th>
+            <th>
+                litVolume
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.volume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.routedVolume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.marketShare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.isHalfday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.litVolume)
+            </td>
+        </tr>
+        }
+
+        @{
+            Model.Count();
+        }
+        <tr>
+            <td>
+                <a asp-controller="Home" asp-action="PopulateHistory"><img src="~/img/button_save-data.png" /></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    alertDbSave(@ViewBag.dbSuccessComp);
+</script>

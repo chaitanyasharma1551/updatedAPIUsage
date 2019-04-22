@@ -1,0 +1,56 @@
+﻿@model IEnumerable<API_Usage.Models.shortinterest>
+
+<h2>Short Interest</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                SettlementDate
+            </th>
+            <th>
+                CompanyName
+            </th>
+            <th>
+                PercentChange
+            </th>
+            <th>
+                DaystoCover
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SettlementDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CompanyName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PercentChange)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DaystoCover)
+                </td>
+            </tr>
+        }
+
+        @{
+            Model.Count();
+        }
+        <tr>
+            <td>
+                <a id="dbopt" asp-controller="Home" asp-action="PopulateInterest"><img src="~/img/button_save-data.png" /></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    alertDbSave(@ViewBag.dbSuccessComp);
+</script>

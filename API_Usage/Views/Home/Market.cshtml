@@ -1,0 +1,77 @@
+﻿
+@model IEnumerable<API_Usage.Models.market>
+<h2>FINANCIAL STATS</h2>
+<hr />
+<table class="table">
+    <!--This is just a sample and hard coded data for your ref. please implment using application lists from json response-->
+    <thead>
+        <tr>
+            <th>
+                mic
+            </th>
+            <th>
+                tapeId
+            </th>
+            <th>
+                venueName
+            </th>
+            <th>
+                volume
+            </th>
+            <th>
+                tapeA
+            </th>
+            <th>
+                tapeB
+            </th>
+            <th>
+                tapeC
+            </th>
+            <th>
+                marketPercent
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tapeId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.venueName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.volume)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tapeA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tapeB)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tapeC)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.marketPercent)
+                </td>
+            </tr>
+        }
+        @{
+            Model.Count();
+        }
+        <tr>
+            <td>
+                <a id="dbopt" asp-controller="Home" asp-action="PopulateMarket"><img src="~/img/button_save-data.png" /></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    alertDbSave(@ViewBag.dbSuccessComp);
+</script>
